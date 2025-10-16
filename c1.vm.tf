@@ -16,7 +16,7 @@ name = "${local.resource_name_prefix}-vm" #sap-dev-vnet-gopal
 
   os_disk {
     caching              = "ReadWrite"
-    storage_account_type = "Standard_LRS"
+    storage_account_type = "SStandard_D2s_v3"
   }
 
   source_image_reference {
